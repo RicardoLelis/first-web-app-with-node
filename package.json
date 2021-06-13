@@ -2,9 +2,10 @@
   "name": "first-web-app-with-node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon -w server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/RicardoLelis/first-web-app-with-node/issues"
   },
-  "homepage": "https://github.com/RicardoLelis/first-web-app-with-node#readme"
+  "homepage": "https://github.com/RicardoLelis/first-web-app-with-node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
