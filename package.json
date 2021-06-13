@@ -1,0 +1,19 @@
+{
+  "name": "first-web-app-with-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicardoLelis/first-web-app-with-node.git"
+  },
+  "author": "Ricardo Lelis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RicardoLelis/first-web-app-with-node/issues"
+  },
+  "homepage": "https://github.com/RicardoLelis/first-web-app-with-node#readme"
+}
