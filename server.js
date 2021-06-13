@@ -4,11 +4,14 @@ const fs = require('fs');
 const path = require('path');
 
 const express = require('express');
+const cors = require('cors');
 // const sessions = require('./sessions.json');
 // load sesisons.json using FS module
 const sessions = fs.readFileSync(path.join(__dirname, 'sessions.json'), 'utf8');
 const app = express();
 const port = process.env.PORT || 3001;
+
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.send('<h1>Hello Salesforce Devs from Express!</h1>')
